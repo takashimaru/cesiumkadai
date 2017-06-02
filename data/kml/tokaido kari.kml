@@ -3,68 +3,14 @@
 <Document>
 	<name>tokaido.kml</name>
 	<open>1</open>
-	<Style id="sn_kominka_nihonkaoku">
+	<Style id="sn_sekihi">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>../images/kominka_nihonkaoku.png</href>
+				<href>../images/sekihi.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_kominka_nihonkaoku">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_kominka_nihonkaoku0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_kominka_nihonkaoku0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_isejingu_torii">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>../images/isejingu_torii.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_yajikita2">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>../images/yajikita2.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_isejingu_torii">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_isejingu_torii</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_isejingu_torii</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_kominka_nihonkaoku">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>../images/kominka_nihonkaoku.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_kominka_nihonkaoku0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_kominka_nihonkaoku</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_kominka_nihonkaoku</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
@@ -75,29 +21,34 @@
 			<styleUrl>#sh_ylw-pushpin0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_kominka_nihonkaoku0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>../images/kominka_nihonkaoku.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_sekihi">
+	<StyleMap id="msn_kominka_nihonkaoku">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_sekihi</styleUrl>
+			<styleUrl>#sn_kominka_nihonkaoku</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_sekihi</styleUrl>
+			<styleUrl>#sh_kominka_nihonkaoku</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_isejingu_torii">
+	<Style id="sn_ylw-pushpin0">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>../images/isejingu_torii.png</href>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_yajikita2">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>../images/yajikita2.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -106,6 +57,38 @@
 			<scale>1.3</scale>
 			<Icon>
 				<href>../images/sekihi.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_kominka_nihonkaoku">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>../images/kominka_nihonkaoku.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_kominka_nihonkaoku">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>../images/kominka_nihonkaoku.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_isejingu_torii">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>../images/isejingu_torii.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_isejingu_torii">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>../images/isejingu_torii.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -122,43 +105,6 @@
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ffff</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_kominka_nihonkaoku0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>../images/kominka_nihonkaoku.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_sekihi">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>../images/sekihi.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_yajikita2">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>../images/yajikita2.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
 	<StyleMap id="msn_yajikita2">
 		<Pair>
 			<key>normal</key>
@@ -169,12 +115,40 @@
 			<styleUrl>#sh_yajikita2</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_yajikita2">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>../images/yajikita2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_isejingu_torii">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_isejingu_torii</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_isejingu_torii</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_sekihi">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_sekihi</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_sekihi</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Placemark>
 		<name>江戸(出発地)</name>
 		<description><![CDATA[神田八丁堀沿いに住んでいた弥次郎兵衛は北八と厄払いに伊勢参詣の旅へと出発
 <div>・53次　日本橋・</div>
-<img style="max-width:500px;" src="../images/nihonbashi.png">
-]]></description>
+<img style="max-width:500px;" src="http://www5e.biglobe.ne.jp/~tomozuri/cover-53tsugi01.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/nihonbashi.png">]]></description>
 		<Camera>
 			<longitude>137.1797494265852</longitude>
 			<latitude>34.53694790624422</latitude>
@@ -194,9 +168,11 @@
 		<name>戸塚宿</name>
 		<description><![CDATA[2つの本陣があり、屋敷神として崇められた羽黒神社は現存する。
 <div>・53次　戸塚・</div>
-<img style="max-width:500px;" src="file:///../images/toduka.png">
+<img style="max-width:500px;" src="https://www.adachi-hanga.com/ukiyo-e/items/hiroshige018/hiroshige018_main.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/toduka.png">
 <div>・羽黒神社・</div>
-<img style="max-width:500px;" src="file:///../images/haguro.png">]]></description>
+<img style="max-width:500px;" src="http://srcc-ah.my.coocan.jp/komainu/hondo_2/02_kenbetu/03_kantou/02_kanagawa/01_yokohama_shi/15_todukaku/01_haguro_j/03.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/haguro.png">]]></description>
 		<LookAt>
 			<longitude>138.6200527777778</longitude>
 			<latitude>35.27243611111111</latitude>
@@ -216,9 +192,11 @@
 		<name>小田原宿</name>
 		<description><![CDATA[宿場としての規模が大きく、本陣が4つ、脇本陣が4つもあった。
 <div>・53次　小田原・</div>
-<img style="max-width:500px;" src="file:///../images/odawara.png">
+<img style="max-width:500px;" src="http://www5e.biglobe.ne.jp/~tomozuri/cover-53tsugi03.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/odawara.png">
 <div>・小田原本陣跡・</div>
-<img style="max-width:500px;" src="file:///../images/odawarahonjin.png">]]></description>
+<img style="max-width:500px;" src="http://blogimg.goo.ne.jp/user_image/0a/82/edf086b96ae747ba917fbf3b06c0b11e.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/odawarahonjin.png">]]></description>
 		<LookAt>
 			<gx:TimeStamp><when>2016</when>
 </gx:TimeStamp>
@@ -230,7 +208,7 @@
 			<range>88861.22084355794</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_kominka_nihonkaoku0</styleUrl>
+		<styleUrl>#msn_kominka_nihonkaoku</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>139.1599722222222,35.24828055555555,0</coordinates>
@@ -239,9 +217,15 @@
 	<Placemark>
 		<name>三島宿</name>
 		<description><![CDATA[本陣2つ。宿でスッポンに噛まれる。
-<div>・53次　三島・</div><img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/mishima.png">
-<div>・世古本陣跡・</div><img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/sekohonjinato.png">
-<div>・挿絵・</div><img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/misimasuppon.png">]]></description>
+<div>・53次　三島・</div>
+<img style="max-width:500px;" src="http://image.space.rakuten.co.jp/d/strg/ctrl/9/18f795e95ff82a9db56b724c9dd8b1c81825cf4b.71.2.9.2.jpeg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/mishima.png">
+<div>・世古本陣跡・</div>
+<img style="max-width:500px;" src="http://livedoor.blogimg.jp/izu_onsen/imgs/4/a/4a430349.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/sekohonjinato.png">
+<div>・挿絵・</div>
+<img style="max-width:500px;" src="http://book.geocities.jp/hf2929/79hizakurige/7903/d0313d1.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/misimasuppon.png">]]></description>
 		<LookAt>
 			<gx:TimeStamp><when>2016</when>
 </gx:TimeStamp>
@@ -253,7 +237,7 @@
 			<range>206151.398153559</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_kominka_nihonkaoku0</styleUrl>
+		<styleUrl>#msn_kominka_nihonkaoku</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>138.9144694444445,35.11944722222222,0</coordinates>
@@ -262,8 +246,12 @@
 	<Placemark>
 		<name>蒲原宿</name>
 		<description><![CDATA[東と西で本陣が2つ。木賃宿に泊まる。
-<div>・53次　蒲原・</div><img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/kabahara.png">
-<div>・蒲原本陣跡・</div><img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/kanbarahonjinn.png">]]></description>
+<div>・53次　蒲原・</div>
+<img style="max-width:500px;" src="https://www.adachi-hanga.com/ukiyo-e/items/hiroshige028/hiroshige028_main.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/kabahara.png">
+<div>・蒲原本陣跡・</div>
+<img style="max-width:500px;" src="http://yokohamanoyoru.com/06toukaidou/images/15_kanbara04.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/kanbarahonjinn.png">]]></description>
 		<LookAt>
 			<gx:TimeStamp><when>2016</when>
 </gx:TimeStamp>
@@ -275,7 +263,7 @@
 			<range>313852.1022721104</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_kominka_nihonkaoku0</styleUrl>
+		<styleUrl>#msn_kominka_nihonkaoku</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>138.6055361111111,35.120045,0</coordinates>
@@ -284,8 +272,12 @@
 	<Placemark>
 		<name>府中宿</name>
 		<description><![CDATA[本陣2、脇本陣2。よね屋という旅籠に泊まる。この地域が由来の安倍川餅を食す。
-<div>・53次　府中・</div><img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/huchuu.png">
-<div>・挿絵・</div><img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/abekawa.png">]]></description>
+<div>・53次　府中・</div>
+<img style="max-width:500px;" src="http://blogimg.goo.ne.jp/user_image/01/81/b46cb70a759e5ba67c0d9cd233619b21.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/huchuu.png">
+<div>・挿絵・</div>
+<img style="max-width:500px;" src="http://book.geocities.jp/hf2929/79hizakurige/7904/d0427c1.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/abekawa.png">]]></description>
 		<LookAt>
 			<gx:TimeStamp><when>2016</when>
 </gx:TimeStamp>
@@ -297,7 +289,7 @@
 			<range>250351.7313505892</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_kominka_nihonkaoku0</styleUrl>
+		<styleUrl>#msn_kominka_nihonkaoku</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>138.3699416666667,34.96209166666667,0</coordinates>
@@ -306,8 +298,12 @@
 	<Placemark>
 		<name>岡部宿</name>
 		<description><![CDATA[旅籠相良屋に宿泊。江戸当時に営業していた旅籠柏屋は修復され歴史資料館として現存する。
-<div>・53次　岡部・</div><img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/okabe.png">
-<div>・旅籠柏屋・</div><img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/kashiwa.png">]]></description>
+<div>・53次　岡部・</div>
+<img style="max-width:500px;" src="http://bicycle.gr.jp/wp/wp-content/uploads/2015/10/%E5%B2%A1%E9%83%A8.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/okabe.png">
+<div>・旅籠柏屋・</div>
+<img style="max-width:500px;" src="http://doboku.pref.shizuoka.jp/desaki2/shimada/viewpoint/20okabeyado/oohatago_1.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/kashiwa.png">]]></description>
 		<LookAt>
 			<gx:TimeStamp><when>2016</when>
 </gx:TimeStamp>
@@ -319,7 +315,7 @@
 			<range>337116.2012040833</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_kominka_nihonkaoku0</styleUrl>
+		<styleUrl>#msn_kominka_nihonkaoku</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>138.2825944444445,34.91939444444444,0</coordinates>
@@ -328,7 +324,9 @@
 	<Placemark>
 		<name>日坂宿</name>
 		<description><![CDATA[本陣は1軒。規模の小さい宿場であった。
-<div>・53次　日坂・</div><img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/nissaka.png">]]></description>
+<div>・53次　日坂・</div>
+<img style="max-width:500px;" src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Tokaido_Hoeido_26_Nissaka.png">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/nissaka.png">]]></description>
 		<LookAt>
 			<gx:TimeStamp><when>2016</when>
 </gx:TimeStamp>
@@ -340,7 +338,7 @@
 			<range>73115.8691860402</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_kominka_nihonkaoku0</styleUrl>
+		<styleUrl>#msn_kominka_nihonkaoku</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>138.0751111111111,34.80425,0</coordinates>
@@ -349,9 +347,14 @@
 	<Placemark>
 		<name>浜松宿</name>
 		<description><![CDATA[宿で幽霊騒ぎが起きる。
-<div>・53次　浜松・</div><img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/hamamatsu.png">
-<div>・挿絵・</div><img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/hamasasie.png">
+<div>・53次　浜松・</div>
+<img style="max-width:500px;" src="http://pds.exblog.jp/pds/1/200903/25/53/f0122653_1232560.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/hamamatsu.png">
+<div>・挿絵・</div>
+<img style="max-width:500px;" src="http://book.geocities.jp/hf2929/79hizakurige/7906/d0630c1.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/hamasasie.png">
 <div>・川口本陣跡・</div>
+<img style="max-width:500px;" src="http://www.jinriki.info/kaidolist/assets/images/kaidolist/tokaido/hamamatsu/kawaguchihonjinato.JPG">
 <img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/hamahonjin.png">]]></description>
 		<LookAt>
 			<gx:TimeStamp><when>2016</when>
@@ -364,7 +367,7 @@
 			<range>242178.380473113</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_kominka_nihonkaoku0</styleUrl>
+		<styleUrl>#msn_kominka_nihonkaoku</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>137.7283916666667,34.70524722222223,0</coordinates>
@@ -373,8 +376,12 @@
 	<Placemark>
 		<name>赤坂宿</name>
 		<description><![CDATA[この絵にある旅籠大橋屋は建物が現存している。
-<div>・53次　赤坂・</div><img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/akasaka.png">
-<div>・旅籠大橋屋・</div><img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/oohashi aka.png">]]></description>
+<div>・53次　赤坂・</div>
+<img style="max-width:500px;" src="http://otowa.or.jp/files/3414/6114/1174/39akasaka.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/akasaka.png">
+<div>・旅籠大橋屋・</div>
+<img style="max-width:500px;" src="http://apok.cocolog-nifty.com/blog/images/2015/01/17/rgr0125.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/oohashi aka.png">]]></description>
 		<Camera>
 			<gx:TimeStamp><when>2016</when>
 </gx:TimeStamp>
@@ -386,7 +393,7 @@
 			<roll>9.454560771115517</roll>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</Camera>
-		<styleUrl>#msn_kominka_nihonkaoku0</styleUrl>
+		<styleUrl>#msn_kominka_nihonkaoku</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>137.3073527777778,34.85636111111111,0</coordinates>
@@ -395,7 +402,9 @@
 	<Placemark>
 		<name>宮宿</name>
 		<description><![CDATA[東海道最大の宿場。旅籠の数は248にもなる。旅籠鍵屋に泊まる。
-<div>・53次　宮・</div><img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/miya.png">]]></description>
+<div>・53次　宮・</div>
+<img style="max-width:500px;" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Hiroshige42_miya.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/miya.png">]]></description>
 		<Camera>
 			<gx:TimeStamp><when>2016</when>
 </gx:TimeStamp>
@@ -407,7 +416,7 @@
 			<roll>9.454560771115517</roll>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</Camera>
-		<styleUrl>#msn_kominka_nihonkaoku0</styleUrl>
+		<styleUrl>#msn_kominka_nihonkaoku</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>136.9068916666667,35.12020277777778,0</coordinates>
@@ -416,8 +425,12 @@
 	<Placemark>
 		<name>四日市宿</name>
 		<description><![CDATA[本陣2,脇本陣1。宿で石地蔵を抱いて寝る。
-<div>・53次　四日市・</div><img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/yokkaichi.png">
-<div>・黒川本陣跡・</div><img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/kurokawa-honjin.png">]]></description>
+<div>・53次　四日市・</div>
+<img style="max-width:500px;" src="https://www.adachi-hanga.com/ukiyo-e/items/hiroshige056/hiroshige056_main.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/yokkaichi.png">
+<div>・黒川本陣跡・</div>
+<img style="max-width:500px;" src="http://image.space.rakuten.co.jp/d/strg/ctrl/2/7856bfa1b70076f06981964027d6495fc1a53497.55.2.2.2.jpg?thum=53">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/kurokawa-honjin.png">]]></description>
 		<Camera>
 			<gx:TimeStamp><when>2016</when>
 </gx:TimeStamp>
@@ -429,7 +442,7 @@
 			<roll>26.49062455428449</roll>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</Camera>
-		<styleUrl>#msn_kominka_nihonkaoku0</styleUrl>
+		<styleUrl>#msn_kominka_nihonkaoku</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>136.6254,34.97062222222223,0</coordinates>
@@ -437,8 +450,12 @@
 	</Placemark>
 	<Placemark>
 		<name>松阪宿</name>
-		<description><![CDATA[伊勢参詣最後の宿場町。東海道から伊勢街道に道を変えている。<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/matsusaka.png">
-<div>・本陣跡・</div><img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/matsuhonjin.png">]]></description>
+		<description><![CDATA[伊勢参詣最後の宿場町。東海道から伊勢街道に道を変えている。
+<img style="max-width:500px;" src="http://book.geocities.jp/hf2929/79hizakurige/7910/d1023c1.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/matsusaka.png">
+<div>・本陣跡・</div>
+<img style="max-width:500px;" src="http://matsusaka-machiaruki.jp/wp-content/themes/masakano-matsusaka/tour/ise-kaido/images/index/p-honjin.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/matsuhonjin.png">]]></description>
 		<Camera>
 			<gx:TimeStamp><when>2016</when>
 </gx:TimeStamp>
@@ -450,7 +467,7 @@
 			<roll>26.49062455428449</roll>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</Camera>
-		<styleUrl>#msn_kominka_nihonkaoku0</styleUrl>
+		<styleUrl>#msn_kominka_nihonkaoku</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>136.5315472222222,34.57566388888889,0</coordinates>
@@ -458,8 +475,12 @@
 	</Placemark>
 	<Placemark>
 		<name>藤屋</name>
-		<description><![CDATA[弥次が名前を忘れ苦労して辿り着いた宿。<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/hujiya.png">
-<div>・藤屋跡・</div><img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/fujiya.png">]]></description>
+		<description><![CDATA[弥次が名前を忘れ苦労して辿り着いた宿。
+<img style="max-width:500px;" src="http://book.geocities.jp/hf2929/79hizakurige/7911/d1119c1.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/hujiya.png">
+<div>・藤屋跡・</div>
+<img style="max-width:500px;" src="http://blog.so-net.ne.jp/_images/blog/_5a6/inishienoise/10912004.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/fujiya.png">]]></description>
 		<LookAt>
 			<gx:TimeStamp><when>2016</when>
 </gx:TimeStamp>
@@ -471,7 +492,7 @@
 			<range>227308.3126168757</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_kominka_nihonkaoku0</styleUrl>
+		<styleUrl>#msn_kominka_nihonkaoku</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>136.71815,34.48537805555556,0</coordinates>
@@ -479,7 +500,9 @@
 	</Placemark>
 	<Placemark>
 		<name>伊勢神宮</name>
-		<description><![CDATA[内宮参詣の後、一度宿に戻ってから外宮参詣<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/ise.png">]]></description>
+		<description><![CDATA[内宮参詣の後、一度宿に戻ってから外宮参詣
+<img style="max-width:500px;" src="http://ise-shima-news.blog.so-net.ne.jp/_images/blog/_11d/ise-shima-news/E3808EE4BC8AE58BA2E5BEA1E981B7E5AEAEE58F82E8A9A3E7BEA4E99B86E4B98BE59BB3E3808F.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/ise.png">]]></description>
 		<Camera>
 			<gx:TimeStamp><when>2016</when>
 </gx:TimeStamp>
@@ -499,7 +522,9 @@
 	</Placemark>
 	<Placemark>
 		<name>弥次喜多像</name>
-		<description><![CDATA[東海道53次の最終地点。伊勢参詣を終え、大阪・京都見物に来た二人組の様子が表されている。<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/yajikitazou.png">]]></description>
+		<description><![CDATA[東海道53次の最終地点。伊勢参詣を終え、大阪・京都見物に来た二人組の様子が表されている。
+<img style="max-width:500px;" src="http://blog-imgs-47.fc2.com/f/u/j/fujisirorei/P1010258_convert_20131025083416.jpg">
+<img style="max-width:500px;" src="file:///C:/MAMP/htdocs/cesiumGitHubPages/data/images/yajikitazou.png">]]></description>
 		<Camera>
 			<gx:TimeStamp><when>2016</when>
 </gx:TimeStamp>
