@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
 	<meta name="description" content="Cesiumを使った日野市オープンデータ可視化のサンプルです" />
 	<meta property="og:image" content="data/hinoshi.png" />
+	<meta property="og:image" content="data/kominka_nihonkaoku.png" />
 	<meta property="og:description" content="Cesiumを使った日野市オープンデータ可視化のサンプルです" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
 	<title>日野市オープンデータ可視化</title>
@@ -64,7 +65,7 @@
 		<a href="https://www.openstreetmap.org/copyright" target="_blank">MapData: © OpenStreetMap contributors</a>
 	</div>
 	<script>
-		// ========== 初期化 ========== 
+		// ========== 初期化 ==========
 
 		//スマホで閲覧した際に，スワイプによるスクロールを禁止
 
@@ -90,7 +91,7 @@
 			$(svNotAvailable).hide();
 		});
 
-		// ========== ビューア初期化 ========== 
+		// ========== ビューア初期化 ==========
 
 		var viewer = new Cesium.Viewer('cesiumContainer', {
 			imageryProvider: new Cesium.ArcGisMapServerImageryProvider({
@@ -101,8 +102,8 @@
 			navigationInstructionsInitiallyVisible: false,
 			geocoder: false,
 			//時間を使うときは以下の二行をコメントアウト
-			timeline: false,
-			animation: false,
+			//timeline: true,
+			//animation: true,
 			sceneModePicker: false,
 			baseLayerPicker: false,
 			scene3DOnly: true,
@@ -130,7 +131,7 @@
 		fog.density = 0.0005;
 		fog.screenSpaceErrorFactor = 100.0;
 
-		// ========== 視点関連 ========== 
+		// ========== 視点関連 ==========
 
 		//視点配列を作成
 
@@ -149,7 +150,7 @@
 
 		viewPointsArray[0] = new viewPoints("首都大", 35.661, 139.3657347, 0, -45, 1000);
 		viewPointsArray[1] = new viewPoints("日野市", 35.654, 139.394, 0, -89, 15000);
-		viewPointsArray[2] = new viewPoints("初期視点", 35.654, 139.394, 0, -35, 5000);
+		viewPointsArray[2] = new viewPoints("視点", 34.904, 137.454, 0, -60, 500000);
 
 		//視点メニューを作成
 
@@ -195,7 +196,7 @@
 			navigator.geolocation.getCurrentPosition(fly);
 		}
 
-		// ========== 以降，起動シークエンス ========== 
+		// ========== 以降，起動シークエンス ==========
 
 		//クレジットを隠す
 
@@ -222,7 +223,7 @@
 			setTimeout('loadKml()', 3000);
 		}
 
-		// ========== KMLをロード ========== 
+		// ========== KMLをロード ==========
 
 		//KML配列を作成
 
@@ -235,8 +236,10 @@
 		//KMLデータを登録．kmzでもOK
 		kmlDataArray[0] = new kmlData("避難所", 'data/kml/hinanjo.kml');
 		kmlDataArray[1] = new kmlData("避難場所", 'data/kml/hinanbasyo.kml');
+		kmlDataArray[2] = new kmlData("東海道", 'data/kml/tokaido kari.kml');
+		kmlDataArray[3] = new kmlData("東海道タイム", 'data/kml/tokaido time.kml');
 		//時間情報入りのKML
-		//kmlDataArray[2] = new kmlData("タイムスパン", 'data/kml/timeSpans.kml');
+		//kmlDataArray[3] = new kmlData("タイムスパン", 'data/kml/timeSpans.kml');
 
 		function loadKml() {
 			var i = 0;
@@ -272,7 +275,7 @@
 			}, 200);
 		}
 
-		// ========== 地図オーバレイを作成 ========== 
+		// ========== 地図オーバレイを作成 ==========
 
 		// オーバレイ配列
 
@@ -314,7 +317,7 @@
 			overlayListMenu.innerHTML = overlayList;
 		}
 
-		//オーバレイの透明度を変更 
+		//オーバレイの透明度を変更
 
 		function transParent(layer) {
 			var id = overlayDataArray[layer].id;
@@ -358,7 +361,7 @@
 			);
 		}
 
-		// ========== ダブルクリックでストビューを表示 ========== 
+		// ========== ダブルクリックでストビューを表示 ==========
 
 		//移動前のカメラ位置格納オブジェクト
 
@@ -422,13 +425,13 @@
 			}, Cesium.ScreenSpaceEventType.LEFT_DOUBLE_CLICK);
 		}
 
-		// ========== ヘルプへリンク ========== 
+		// ========== ヘルプへリンク ==========
 
 		function help() {
 			window.open('https://github.com/wtnv-lab/cesiumGitHubPages');
 		}
 
-		// ========== 各種DIVのフェードイン・アウト ========== 
+		// ========== 各種DIVのフェードイン・アウト ==========
 
 		function fadeInOut(layer, param) {
 			if (param == 0) {
